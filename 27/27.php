@@ -42,7 +42,7 @@ $less->compileFile('less/27.less', 'css/27.css');
 </head>
 
 <body>
-    <?php include './27.php'; ?>
+    <?php include './27-content.php'; ?>
 </body>
 
 </html>

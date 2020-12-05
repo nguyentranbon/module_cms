@@ -37,7 +37,7 @@ $less->compileFile('less/19.less', 'css/19.css');
         include('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/19.less', 'css/19.css');
+    $less->compileFile('less/19-content.less', 'css/19.css');
     ?>
 </head>
 
