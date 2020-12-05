@@ -1,39 +1,48 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
-
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
-
 $url_path = $url_host . $matches[1][0];
-
 $url_path = str_replace('\\', '/', $url_path);
+
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block . '/libs/lessc.inc.php');
+}
+
+$less = new lessc;
+$less->compileFile('less/36.less', 'css/36.css');
 ?>
-<div class="module-36">
-    <!-- Flickity HTML init  -->
-    <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true, "groupCells": 1, "autoPlay": 2000}'>
-        <div class="carousel-cell"> <a href="#"> <img src="http://<?php echo $url_path ?>/images/sl1.jpg" alt="img 1" class="img-fluid">
-                <div class="content">
-                    <h5>5 Sunny Days In Malaga</h5>
-                </div>
-            </a>
-        </div>
-        <div class="carousel-cell"> <a href="#"> <img src="http://<?php echo $url_path ?>/images/sl2.jpg" alt="img 1" class="img-fluid">
-                <div class="content">
-                    <h5> Sightseeing in Novi Sad</h5>
-                </div>
-            </a></div>
-        <div class="carousel-cell"> <a href="#"> <img src="http://<?php echo $url_path ?>/images/sl3.jpg" alt="img 1" class="img-fluid">
-                <div class="content">
-                    <h5> Couple Of Days In Sunny Miami</h5>
-                </div>
-            </a></div>
-        <div class="carousel-cell"> <a href="#"> <img src="http://<?php echo $url_path ?>/images/sl4.jpg" alt="img 1" class="img-fluid">
-                <div class="content">
-                    <h5> No Sleep In New York</h5>
-                </div>
-            </a></div>
-    </div>
-</div>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>36</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/36.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+    <?php
+    if (!class_exists('lessc')) {
+        include('./libs/lessc.inc.php');
+    }
+    $less = new lessc;
+    $less->compileFile('less/36.less', 'css/36.css');
+    ?>
+</head>
+
+<body>
+    <?php include './36.php'; ?>
+</body>
+
+</html>

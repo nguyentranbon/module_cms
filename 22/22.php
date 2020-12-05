@@ -1,51 +1,49 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
-
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
-
 $url_path = $url_host . $matches[1][0];
-
 $url_path = str_replace('\\', '/', $url_path);
+
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block . '/libs/lessc.inc.php');
+}
+
+$less = new lessc;
+$less->compileFile('less/22.less', 'css/22.css');
+
 ?>
-<div class="module-22">
-    <div class="grey-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-push-1">
-                    <div class="comments-wrap">
-                        <!-- title -->
-                        <h4 class="extra-margin">
-                            No Comments </h4>
-                        <!--.title -->
 
-                        <!-- comments -->
-                        <div class="comment-content comments">
-                        </div>
-                        <!-- .comments -->
+<!DOCTYPE html>
+<html lang="en">
 
-                        <!-- comments pagination -->
-                        <!-- .comments pagination -->
-                    </div>
-                    <div class="leave-comment">
+<head>
+    <title>22</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/22.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-                        <h4 class="extra-margin">
-                            Leave Comment </h4>
 
-                        <div id="contact_form">
-                            <div id="respond" class="comment-respond">
-                                <h3 id="reply-title" class="comment-reply-title"> <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">or cancel reply</a></small></h3>
-                                <p class="must-log-in">You must be <a href="#">logged in</a> to post a comment.</p>
-                            </div><!-- #respond -->
-                        </div>
+    <?php
+    if (!class_exists('lessc')) {
+        include('./libs/lessc.inc.php');
+    }
+    $less = new lessc;
+    $less->compileFile('less/22.less', 'css/22.css');
+    ?>
+</head>
 
-                    </div>
+<body>
+    <?php include './22.php'; ?>
+</body>
 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+</html>
