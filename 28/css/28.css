@@ -1,0 +1,65 @@
+.type-28 {
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 50px;
+}
+.type-28 a {
+  color: #272727;
+}
+.type-28 a:hover,
+.type-28 a:focus,
+.type-28 a:active {
+  color: #f8c12c;
+}
+.type-28 h1,
+.type-28 h2,
+.type-28 h3,
+.type-28 h4,
+.type-28 h5,
+.type-28 h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #272727;
+}
+.type-28 .blog-header p {
+  opacity: 0.8;
+  margin: 0px;
+}
+.type-28 .blog-header .post-title {
+  margin-bottom: 25px;
+  margin-top: 0px;
+  font-size: 2.0581em;
+  font-weight: bold;
+}
+.type-28 .post-meta li {
+  margin-right: 5px;
+}
+.type-28 .post-meta li i {
+  margin-right: 5px;
+}
+.type-28 .white-section {
+  padding: 50px 0px;
+}
+.type-28 .white-section p {
+  margin: 0 0 10px;
+}
+.type-28 .white-section .gallery {
+  margin: auto;
+  margin-bottom: 15px;
+  margin-right: -15px;
+}
+.type-28 .white-section .gallery,
+.type-28 .white-section .gallery-item {
+  float: left;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 15px;
+}
+.type-28 .white-section .gallery-columns-3,
+.type-28 .white-section .gallery-item {
+  width: calc(18.3333333%) !important;
+}
+.type-28 .white-section .gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+}

@@ -1,0 +1,75 @@
+@import "../../var/var.less";
+.type-6 {
+  margin-bottom: 50px;
+}
+.type-6 html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #545454;
+}
+.type-6 h1,
+.type-6 h2,
+.type-6 h3,
+.type-6 h4,
+.type-6 h5 {
+  font-family: "Montserrat", sans-serif;
+}
+.type-6 a {
+  text-decoration: none;
+  background: transparent;
+  color: #272727;
+  transition: .4s;
+}
+.type-6 a:hover {
+  text-decoration: none;
+}
+.type-6 h4.widget-title {
+  font-size: 1.272em;
+  font-weight: bold;
+  line-height: 1.4;
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: -2px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f8c12c;
+}
+.type-6 .widget-title-wrap {
+  display: block;
+  text-align: left;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 25px;
+}
+.type-6 ul {
+  padding: 0px;
+  margin: 0px;
+  margin-top: -5px;
+}
+.type-6 li {
+  padding: 2px 0px;
+}
+.type-6 li:first-child {
+  padding-top: 0px;
+}
+.type-6 span {
+  font-size: 75%;
+  border: 2px solid #eee;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  line-height: 15px;
+  display: inline-block;
+  text-align: center;
+  float: right;
+}
+.type-6 li.cat-item:hover a {
+  transition: .4s;
+  text-decoration: none;
+  color: #f8c12c;
+}
+.type-6 li.cat-item:hover span {
+  transition: .4s;
+  border-color: #f8c12c;
+  color: #f8c12c;
+}
