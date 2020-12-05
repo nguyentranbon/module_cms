@@ -17,8 +17,5 @@ $url_path = str_replace('\\', '/', $url_path);
             <h4>
                 Category: Russia </h4>
         </div>
-        <div class="demo">
-            <p>hover</p>
-        </div>
     </div>
 </div>
