@@ -1,0 +1,83 @@
+@import "../../var/var.less";
+/****************** MODULE 6 ***********************/
+.type-6 {
+    @color-body: #545454;
+    @font-title: 1.272em;
+    @color-yellow: #f8c12c;
+    @color-a: #272727;
+    @color-pagination: #eee;
+    margin-bottom: 50px;
+    /*********************DINH DANG CHUNG****************/
+    html {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color:@color-body;
+    }
+    h1, h2, h3, h4, h5{
+        font-family: "Montserrat", sans-serif;
+    }
+
+    
+    a{
+        text-decoration: none;
+        background: transparent;
+        color: @color-a;
+        transition: .4s;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    /*********************END/DINH DANG CHUNG****************/
+    h4.widget-title{
+        font-size: @font-title;
+        font-weight: bold;
+        line-height: 1.4;
+        position: relative;
+        display: inline-block;
+        margin: 0px;
+        margin-bottom: -2px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #f8c12c;
+    }
+    .widget-title-wrap {
+        display: block;
+        text-align: left;
+        border-bottom: 2px solid #eee;
+        margin-bottom: 25px;
+    }
+    ul{
+        padding: 0px;
+        margin: 0px;
+        margin-top: -5px;
+    }
+    li{
+        padding: 2px 0px;
+    }
+    li:first-child{
+        padding-top: 0px;
+    }
+    span{
+        font-size: 75%;
+        border: 2px solid #eee;
+        border-radius: 2px;
+        width: 20px;
+        height: 20px;
+        line-height: 15px;
+        display: inline-block;
+        text-align: center;
+        float: right;
+    }
+    li.cat-item:hover a {
+        transition: .4s;
+        text-decoration: none;
+        color: @color-yellow;
+    }
+    li.cat-item:hover span{
+        transition: .4s;
+        border-color: @color-yellow;
+        color: @color-yellow;
+    }
+
+}
+/****************** END MODULE 6 ***********************/

@@ -1,0 +1,57 @@
+@import "../../var/var.less";
+.type-31 {
+    @color-body: #545454;
+    @font-title: 1.272em;
+    @color-yellow: #f8c12c;
+    @color-a: #272727;
+    @color-pagination: #eee;
+    @color-ul: #f8f8f8;
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Montserrat", sans-serif;
+        color: #272727;
+    }
+    a:hover, a:focus, a:active{
+        color: @color-yellow;
+        text-decoration: none;
+    }
+    a, a:visited {
+        color: #272727;
+    }
+    .next-post.padding, .prev-post.padding {
+        padding: 50px 0px;
+    }
+    .next-post, .prev-post {
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+    }
+    .col-sm-6{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .next-prev .overlay {
+        background: rgba(255,255,255, 0.85);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+    .caption-holder {
+        z-index: 2;
+        position: relative;
+        padding: 0px 20px;
+    }
+    .animation {
+        transition: all 0.2s ease;
+        line-height: 1.4;
+        color: #272727;
+        font-weight: bold;
+    }
+    .next-post:hover .overlay , .prev-post:hover .overlay{
+        background: rgba(0,0,0,0.4);
+    }
+    .next-post:hover .animation , .prev-post:hover .animation{
+        color: white;
+    }
+}

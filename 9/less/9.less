@@ -1,0 +1,79 @@
+// @import "../../var/var.less";
+/****************** MODULE 9 ***********************/
+.type-9 {
+    @color-body: #545454;
+    @font-title: 1.272em;
+    @color-yellow: #f8c12c;
+    @color-a: #272727;
+    @color-pagination: #eee;
+    margin-bottom: 50px;
+    /*********************DINH DANG CHUNG****************/
+    html {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color:@color-body;
+    }
+    h1, h2, h3, h4, h5{
+        font-family: "Montserrat", sans-serif;
+    }
+
+    
+    a{
+        text-decoration: none;
+        background: transparent;
+        color: @color-a;
+        transition: .4s;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    /*********************END/DINH DANG CHUNG****************/
+    h4.widget-title{
+        font-size: @font-title;
+        font-weight: bold;
+        line-height: 1.4;
+        position: relative;
+        display: inline-block;
+        margin: 0px;
+        margin-bottom: -2px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #f8c12c;
+    }
+    .widget-title-wrap {
+        display: block;
+        text-align: left;
+        border-bottom: 2px solid #eee;
+        margin-bottom: 25px;
+    }
+    /***************** FORM **************/
+    .travelog-form{
+        h4{
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 1.272em;
+        }
+    }
+    .subscribe {
+        position: static;
+        display: block;
+        width: 100%;
+        border: none;
+        margin-top: 10px;
+        background: #202020;
+        color: #fff;
+        text-transform: uppercase;  
+    }
+    .subscribe:hover{
+        transition: .4s;
+        background-color: @color-yellow;
+    }
+    input.form-control.email {
+        min-height: 40px;
+        text-align: center;
+        font-size: 13px;
+    }
+    /***************** END/FORM ************/
+
+}
+/****************** END MODULE 9 ***********************/

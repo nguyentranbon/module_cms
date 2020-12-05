@@ -1,0 +1,59 @@
+.type-10 html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #545454;
+}
+.type-10 h1,
+.type-10 h2,
+.type-10 h3,
+.type-10 h4,
+.type-10 h5 {
+  font-family: "Montserrat", sans-serif;
+}
+.type-10 ul {
+  list-style: none;
+}
+.type-10 a {
+  text-decoration: none;
+  background: transparent;
+  color: #272727;
+  transition: .4s;
+}
+.type-10 a:hover {
+  text-decoration: none;
+}
+.type-10 .pagination {
+  display: block;
+  line-height: 1.42857143;
+  text-align: center;
+}
+.type-10 .pagination span {
+  padding: 6px 12px;
+  border-radius: 2px;
+  background: transparent;
+  color: #202020;
+  display: inline-block;
+  white-space: normal;
+  border: 2px solid #202020;
+  font-size: 85%;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+.type-10 .pagination .current {
+  background: #f8c12c;
+  color: #202020;
+  border-color: #f8c12c;
+}
+.type-10 .pagination a {
+  padding: 6px 12px;
+  border-radius: 2px;
+  background: transparent;
+  color: #202020;
+  display: inline-block;
+  white-space: normal;
+  border: 2px solid #eee;
+  font-size: 85%;
+  text-transform: uppercase;
+  box-shadow: none;
+}
