@@ -13,7 +13,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="module-36">
     <!-- Flickity HTML init  -->
-    <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true, "groupCells": 1, "autoPlay": 2000}'>
+    <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true, "groupCells": 1}'>
         <div class="carousel-cell"> <a href="#"> <img src="http://<?php echo $url_path ?>/images/sl1.jpg" alt="img 1" class="img-fluid">
                 <div class="content">
                     <h5>5 Sunny Days In Malaga</h5>
