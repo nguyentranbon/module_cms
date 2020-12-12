@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="footer-blog-icon">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-6">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
                     <div class="title-wrap">
                         <h2 class="widget-title">Tags</h2>
                     </div>

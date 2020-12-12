@@ -62,7 +62,7 @@
   color: #fff;
 }
 .module-27 .row-widget {
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 .module-27 #cm {
   margin-left: 10px;
@@ -132,9 +132,12 @@
   line-height: 25px;
   width: 40px;
 }
-.module-27 .box-post {
-  margin-bottom: 105px;
+.module-27 .widget-social-27 {
+  padding: 10px 0px;
 }
 .module-27 .box-tag {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+.module-27 .box-post {
+  margin-bottom: 65px;
 }
