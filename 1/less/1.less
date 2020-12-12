@@ -11,6 +11,9 @@
         color: @color-yellow;
         
     }
+    ul{
+        list-style: none;
+    }
     h1,h2,h3,h4,h5,h6{
         font-family: "Montserrat", sans-serif;
         color: #272727;
@@ -22,9 +25,14 @@
     }
     .no-response{
         padding: 25px 0px !important;
+        background: #f5eaea;
     }
     .navbar{
         padding: 0;
+        margin: 0;
+        .navbar-brand{
+            padding: 0;
+        }
         .nav-item{
             margin: 0px 3px;
             position: relative;
@@ -41,8 +49,11 @@
             .nav-link:hover{
                 color: @color-yellow;
                 transition: .4s;
+                text-decoration: none;
             }
-
+        }
+        .ml-auto {
+            float: right;
         }
         .nav-item:hover{
             color: @color-yellow;
