@@ -14,10 +14,9 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="module-32">
     <div class="filter-title">
         <div class="container">
-        <img src="http://<?php echo $url_path ?>/images/32.jpg" alt="img 1" class="img-fluid">
-            <h4>
-                Posts by: Ally Star </h4>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            <img src="http://<?php echo $url_path ?>/images/32.jpg" alt="img 1" class="img-fluid">
+            <h4>Posts by: Ally Star</h4>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
         </div>
     </div>
 </div>

@@ -12,6 +12,9 @@
   display: block;
   position: relative;
 }
+.module-12 .block-p {
+  display: inline;
+}
 .module-12 .blog-item:after {
   content: ' ';
   height: 50%;
