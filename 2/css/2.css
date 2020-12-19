@@ -1,1 +1,5 @@
 @import "../../var/var.less";
+.type-2 #map {
+  height: 400px;
+  width: 100%;
+}
