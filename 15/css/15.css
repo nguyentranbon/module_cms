@@ -1,33 +1,8 @@
-@import "../../var/var.less";
+
 .type-15 .widget {
   margin-bottom: 50px;
 }
-.type-15 .widget .btn {
-  margin-bottom: 0;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  user-select: none;
-}
-.type-15 .widget .btn,
-.type-15 .widget a.btn {
-  padding: 6px 12px;
-  background: transparent;
-  color: #202020;
-  display: inline-block;
-  white-space: normal;
-  border: 2px solid #202020;
-  font-size: 85%;
-  text-transform: uppercase;
-  box-shadow: none;
-}
-.type-15 .widget .travelog-form {
-  width: 100%;
-  display: block;
-  position: relative;
-}
-.type-15 .widget .travelog-form .form-control {
+.type-15 .widget .form-control {
   min-height: 40px;
   padding: 0px 10px;
   font-size: 13px;
@@ -39,17 +14,7 @@
   display: block;
   width: 100%;
   height: 34px;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-}
-.type-15 .widget .travelog-form .btn {
-  line-height: 25px;
-  width: 40px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  height: 100%;
-  border-radius: 2px;
-  border-color: #eee;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .type-15 .clearfix:before {
   content: " ";
@@ -59,4 +24,9 @@
   clear: both;
   content: " ";
   display: table;
+}
+.type-15 .travelog-form {
+  width: 100%;
+  display: block;
+  position: relative;
 }

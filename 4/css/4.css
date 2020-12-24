@@ -1,7 +1,10 @@
-@import "../../var/var.less";
+
 .type-4 {
   position: relative;
   margin-bottom: 50px;
+}
+.type-4 .blox-pd{
+  padding-bottom: 30px;
 }
 .type-4 a {
   transition: all 0.2s ease;

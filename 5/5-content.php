@@ -12,18 +12,12 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-5">
-<div class="widget white-block clearfix widget_text">
-              <div class="textwidget">
-                <div class="text-center">
-                  <a
-                    href="https://themeforest.net/item/industry-factory-company-and-industry-wp-theme/14982305"
-                    target="_blank"
-                    ><img
-                      src="http://<?php echo $url_path ?>/images/banner.png"
-                      width="262"
-                      height="300"
-                  /></a>
-                </div>
-              </div>
-            </div>
+  <div class="widget white-block clearfix widget_text">
+    <div class="textwidget">
+      <div class="text-center">
+        <a href="https://themeforest.net/item/industry-factory-company-and-industry-wp-theme/14982305" target="_blank"><img src="http://<?php echo $url_path ?>/images/banner.png" width="262" height="300" /></a>
+      </div>
+    </div>
+  </div>
+
 </div>
