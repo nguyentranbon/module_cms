@@ -9,20 +9,28 @@
     @color-ul: #f8f8f8;
     a:hover, a:focus, a:active{
         color: @color-yellow;
+        
+    }
+    ul{
+        list-style: none;
     }
     h1,h2,h3,h4,h5,h6{
         font-family: "Montserrat", sans-serif;
-        color: #272727;
-                
+        color: #272727;         
     }
     font-family: "Work Sans", sans-serif;
     .nav-item.active a {
         color: @color-yellow !important;
     }
-
-    /*---------------- NAV-BAR---------------------- */
+    .no-response{
+        padding: 25px 0px !important;
+    }
     .navbar{
         padding: 0;
+        margin: 0;
+        .navbar-brand{
+            padding: 0;
+        }
         .nav-item{
             margin: 0px 3px;
             position: relative;
@@ -39,9 +47,10 @@
             .nav-link:hover{
                 color: @color-yellow;
                 transition: .4s;
+                text-decoration: none;
             }
-
         }
+
         .nav-item:hover{
             color: @color-yellow;
             .dropdown-menu{
@@ -49,15 +58,11 @@
             }
         }
         .search{
-            position: absolute !important;
-            right: 0%;
             a{
                 color:@color-a;
                 line-height: 50px;
             }
         }
-        /*---------------- END NAV-BAR---------------------- */
-        /***************** DROP MENU ********************* */
         .dropdown-menu{
             display: none;
             margin: 0px;
@@ -92,7 +97,7 @@
             .menu-item:last-child{
                 padding-bottom: 15px;
             }
-            /*****************END/ DROP MENU ********************* */
+
         }
     }
     .navbar-toggler {
@@ -111,26 +116,7 @@
         display: none;
         padding: 10px 0;
     }
-    /********************* no-response************************/
-    .no-response{
-        .navbar-brand{
-            display: none;
-        }
-        .navbar-collapse{
-            border-bottom: 1px solid #e7e7e7;
-        }
-    }
-    /********************* END/no-response************************/
-
     /*--------------------REPONSIVE 1-----------------------*/
-    .account{
-        padding: 25px;
-        .flex-wrap {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-    }
 // Small devices (landscape phones, 576px and up)
     @media (max-width: 576px) { 
         img{
@@ -160,9 +146,6 @@
         }
         .no-response{
             display: none !important;
-        }
-        .account{
-            display: none;
         }
     }
 

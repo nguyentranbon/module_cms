@@ -6,6 +6,9 @@
 .type-1 a:active {
   color: #f8c12c;
 }
+.type-1 ul {
+  list-style: none;
+}
 .type-1 h1,
 .type-1 h2,
 .type-1 h3,
@@ -22,6 +25,10 @@
   padding: 25px 0px !important;
 }
 .type-1 .navbar {
+  padding: 0;
+  margin: 0;
+}
+.type-1 .navbar .navbar-brand {
   padding: 0;
 }
 .type-1 .navbar .nav-item {
@@ -41,6 +48,10 @@
 .type-1 .navbar .nav-item .nav-link:hover {
   color: #f8c12c;
   transition: .4s;
+  text-decoration: none;
+}
+.type-1 .navbar .ml-auto {
+  float: right;
 }
 .type-1 .navbar .nav-item:hover {
   color: #f8c12c;

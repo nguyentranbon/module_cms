@@ -4,10 +4,11 @@
 }
 .module-36 .carousel .carousel-cell {
   position: relative;
+  margin-right: -10px;
 }
 .module-36 .carousel .carousel-cell a img {
-  width: 700px;
-  height: 500px;
+  width: 520px;
+  height: 422px;
 }
 .module-36 .carousel .carousel-cell a .content {
   position: absolute;
