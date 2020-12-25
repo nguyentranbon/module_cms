@@ -18,7 +18,7 @@ $less->compileFile('less/16.less', 'css/16.css');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>1</title>
+        <title>16</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -35,22 +35,6 @@ $less->compileFile('less/16.less', 'css/16.css');
     <body >
         <?php include '../16/16-content.php'; ?>
         <script src="http://<?php echo $url_path ?>/js/jquery.js"></script>
-        <script>
-           $('.trigger-search').click(function(){
-                $('.type-33').toggle('1500');
-            });
-            $(window).scroll(function() {    
-                var scroll = $(window).scrollTop();
-                console.log(scroll);
-                //>=, not <=
-                if (scroll > 300) {
-                    $('.no-response').hide();
-                    $('.responsive1').show();
-                }else{
-                    $('.no-response').show();
-                    $('.responsive1').hide();
-                }
-            });
-        </script>
+        <script src="http://<?php echo $url_path ?>/js/js.js"></script>
     </body>
 </html>

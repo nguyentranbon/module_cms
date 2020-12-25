@@ -7,9 +7,11 @@
     @color-a: #272727;
     @color-pagination: #eee;
     @color-ul: #f8f8f8;
+    a{
+        color: @color-a;
+    }
     a:hover, a:focus, a:active{
-        color: @color-yellow;
-        
+        color: @color-yellow;   
     }
     ul{
         list-style: none;
@@ -22,8 +24,25 @@
     .nav-item.active a {
         color: @color-yellow !important;
     }
+    padding-bottom: 25px;
     .no-response{
-        padding: 25px 0px !important;
+        .flex-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar-nav{
+            padding: 0;
+            width: 100%;
+            .search{
+                float: right;
+            }
+        }
+        .collapse{
+            padding: 0;
+            border-bottom: 2px solid #eee;
+        margin-bottom: 25px;
+        }
     }
     .navbar{
         padding: 0;
@@ -50,9 +69,14 @@
                 text-decoration: none;
             }
         }
-
+        .ml-auto {
+            float: right;
+        }
         .nav-item:hover{
-            color: @color-yellow;
+            color: @color-yellow !important;
+            a{
+                background: none;
+            }
             .dropdown-menu{
                 display: block !important;
             }
@@ -116,6 +140,19 @@
         display: none;
         padding: 10px 0;
     }
+    a.navbar-toggle {
+        margin: 0 !important;
+    } 
+    .fix-right{
+        float: right;
+    }
+    .list-inline{
+        display: flex;
+        margin: 0;
+        li:nth-child(2){
+            line-height: 40px;
+        }
+    }
     /*--------------------REPONSIVE 1-----------------------*/
 // Small devices (landscape phones, 576px and up)
     @media (max-width: 576px) { 
@@ -136,17 +173,35 @@
                     line-height: 33px;
                     margin-left: -5px;
                 }
+                
             }
             .responsive2{
                 flex-direction: column;
             }
             .trigger-search{
                 display: block;
+               
+            }
+            #navigation{
+                display: inline-block;
+                width: 100%;
+                i{
+                    float: right;
+                }
+                .dropdown-menu{
+                    position: static;
+                    float: none;
+                    width: auto;
+                }
+            }
+            .ml-auto{
+                float: none;
             }
         }
         .no-response{
             display: none !important;
         }
+
     }
 
     // Large devices (desktops, 992px and up)
@@ -161,6 +216,13 @@
             .trigger-search {
                 display: none;
             }
+            .navbar-nav{
+                display: flex;
+            }
+
+        }
+        .responsive-action{
+            display: none;
         }
 
      }
@@ -186,8 +248,6 @@
     @media (max-width: @md-992){
     }
     @media (max-width: @xs-480){
-
-
     }
     /*--------------------END/REPONSIVE 1-----------------------*/
 }

@@ -1,12 +1,16 @@
 .type-18 {
   font-family: "Work Sans", sans-serif;
-  padding: 10px 0px;
-  text-align: center;
+}
+.type-18 a {
+  color: #272727;
 }
 .type-18 a:hover,
 .type-18 a:focus,
 .type-18 a:active {
   color: #f8c12c;
+}
+.type-18 ul {
+  list-style: none;
 }
 .type-18 h1,
 .type-18 h2,
@@ -20,10 +24,31 @@
 .type-18 .nav-item.active a {
   color: #f8c12c !important;
 }
-.type-18 .logo {
-  margin: 25px 0px 15px 0px;
+.type-18 .no-response {
+  padding-top: 25px;
+}
+.type-18 .no-response .flex-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.type-18 .no-response .navbar-nav {
+  padding: 0;
+  width: 100%;
+}
+.type-18 .no-response .navbar-nav .search {
+  float: right;
+}
+.type-18 .no-response .collapse {
+  padding: 0;
+  border-top: 2px solid #eee;
+  margin-top: 25px;
 }
 .type-18 .navbar {
+  padding: 0;
+  margin: 0;
+}
+.type-18 .navbar .navbar-brand {
   padding: 0;
 }
 .type-18 .navbar .nav-item {
@@ -43,9 +68,16 @@
 .type-18 .navbar .nav-item .nav-link:hover {
   color: #f8c12c;
   transition: .4s;
+  text-decoration: none;
+}
+.type-18 .navbar .ml-auto {
+  float: right;
 }
 .type-18 .navbar .nav-item:hover {
-  color: #f8c12c;
+  color: #f8c12c !important;
+}
+.type-18 .navbar .nav-item:hover a {
+  background: none;
 }
 .type-18 .navbar .nav-item:hover .dropdown-menu {
   display: block !important;
@@ -102,6 +134,19 @@
   display: none;
   padding: 10px 0;
 }
+.type-18 a.navbar-toggle {
+  margin: 0 !important;
+}
+.type-18 .fix-right {
+  float: right;
+}
+.type-18 .list-inline {
+  display: flex;
+  margin: 0;
+}
+.type-18 .list-inline li:nth-child(2) {
+  line-height: 40px;
+}
 @media (max-width: 576px) {
   .type-18 img {
     width: 185px;
@@ -125,15 +170,33 @@
   .type-18 .responsive1 .trigger-search {
     display: block;
   }
+  .type-18 .responsive1 #navigation {
+    display: inline-block;
+    width: 100%;
+  }
+  .type-18 .responsive1 #navigation i {
+    float: right;
+  }
+  .type-18 .responsive1 #navigation .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+  }
+  .type-18 .responsive1 .ml-auto {
+    float: none;
+  }
   .type-18 .no-response {
     display: none !important;
-  }
-  .type-18 .account {
-    display: none;
   }
 }
 @media (min-width: 768px) {
   .type-18 .responsive1 .trigger-search {
+    display: none;
+  }
+  .type-18 .responsive1 .navbar-nav {
+    display: flex;
+  }
+  .type-18 .responsive-action {
     display: none;
   }
 }

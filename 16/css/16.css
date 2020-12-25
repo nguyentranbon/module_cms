@@ -1,5 +1,9 @@
 .type-16 {
   font-family: "Work Sans", sans-serif;
+  padding-bottom: 25px;
+}
+.type-16 a {
+  color: #272727;
 }
 .type-16 a:hover,
 .type-16 a:focus,
@@ -21,8 +25,22 @@
 .type-16 .nav-item.active a {
   color: #f8c12c !important;
 }
-.type-16 .no-response {
-  padding: 25px 0px !important;
+.type-16 .no-response .flex-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.type-16 .no-response .navbar-nav {
+  padding: 0;
+  width: 100%;
+}
+.type-16 .no-response .navbar-nav .search {
+  float: right;
+}
+.type-16 .no-response .collapse {
+  padding: 0;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 25px;
 }
 .type-16 .navbar {
   padding: 0;
@@ -50,8 +68,14 @@
   transition: .4s;
   text-decoration: none;
 }
+.type-16 .navbar .ml-auto {
+  float: right;
+}
 .type-16 .navbar .nav-item:hover {
-  color: #f8c12c;
+  color: #f8c12c !important;
+}
+.type-16 .navbar .nav-item:hover a {
+  background: none;
 }
 .type-16 .navbar .nav-item:hover .dropdown-menu {
   display: block !important;
@@ -108,6 +132,19 @@
   display: none;
   padding: 10px 0;
 }
+.type-16 a.navbar-toggle {
+  margin: 0 !important;
+}
+.type-16 .fix-right {
+  float: right;
+}
+.type-16 .list-inline {
+  display: flex;
+  margin: 0;
+}
+.type-16 .list-inline li:nth-child(2) {
+  line-height: 40px;
+}
 @media (max-width: 576px) {
   .type-16 img {
     width: 185px;
@@ -131,12 +168,33 @@
   .type-16 .responsive1 .trigger-search {
     display: block;
   }
+  .type-16 .responsive1 #navigation {
+    display: inline-block;
+    width: 100%;
+  }
+  .type-16 .responsive1 #navigation i {
+    float: right;
+  }
+  .type-16 .responsive1 #navigation .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+  }
+  .type-16 .responsive1 .ml-auto {
+    float: none;
+  }
   .type-16 .no-response {
     display: none !important;
   }
 }
 @media (min-width: 768px) {
   .type-16 .responsive1 .trigger-search {
+    display: none;
+  }
+  .type-16 .responsive1 .navbar-nav {
+    display: flex;
+  }
+  .type-16 .responsive-action {
     display: none;
   }
 }

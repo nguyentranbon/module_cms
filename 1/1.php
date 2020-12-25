@@ -35,22 +35,6 @@ $less->compileFile('less/1.less', 'css/1.css');
     <body >
         <?php include '../1/1-content.php'; ?>
         <script src="http://<?php echo $url_path ?>/js/jquery.js"></script>
-        <script>
-           $('.trigger-search').click(function(){
-                $('.type-33').toggle('1500');
-            });
-            $(window).scroll(function() {    
-                var scroll = $(window).scrollTop();
-                console.log(scroll);
-                //>=, not <=
-                if (scroll >= 300) {
-                    $('.no-response').hide();
-                    $('.responsive1').show();
-                }else{
-                    $('.no-response').show();
-                    $('.responsive1').hide();
-                }
-            });
-        </script>
+        <script src="http://<?php echo $url_path ?>/js/js.js"></script>
     </body>
 </html>

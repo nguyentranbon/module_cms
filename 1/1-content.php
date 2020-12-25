@@ -82,16 +82,26 @@ $url_path = str_replace('\\', '/', $url_path);
         <nav class="navbar">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="http://<?php echo $url_path ?>/images/hinh1.png" alt="hinh1"></a>
-                <ul class="navbar-nav ml-auto ">
-                    <li><a href="#"><span class="navbar-toggler-icon"></span></a></li>
-                    <li class="nav-item"><a href="javascript:;" class="trigger-search nav-link"><i class="fa fa-search"></i>
-                        </a></li>
-                </ul>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent2">
-                    <ul class="navbar-nav ml-auto responsive2">
+                <div class="fix-right">
+                    <ul class="list-inline">
+                        <li>
+                            <a class="navbar-toggle">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="trigger-search">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="navigation">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav ml-auto responsive2">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home<i class="fa fa-angle-down fa-sm"></i></a>
-                            <ul class=" dropdown-menu">
+                            <a class="nav-link " href="#">Home<i class="fa fa-angle-down fa-sm"></i></a>
+                            <ul class="dropdown-menu">
                                 <li class="menu-item"><a href="#">Listing – Standard</a></li>
                                 <li class="menu-item"><a href="#">Listing – Title Over</a></li>
                                 <li class="menu-item"><a href="#">Listing – Title Over Block</a></li>
@@ -102,7 +112,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Headers<i class="fa fa-angle-down"></i></a>
+                            <a class="nav-link" href="#">Headers<i class="fa fa-angle-down" data-toggle="dropdown"  ></i></a>
                             <ul class=" dropdown-menu">
                                 <li class="menu-item"><a href="#">Standard</a></li>
                                 <li class="menu-item"><a href="#">Top Menu</a></li>
@@ -134,8 +144,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                     </ul>
                 </div>
+                </div>
             </div>
         </nav>
     </div>
 </div>
-<div>
+
