@@ -33,7 +33,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <a href="#">5 Sunny Days In Malaga</a>
                                     </div>
                                     <div class="icon">
-                                        <i class="fa fa-clock-o"></i> May 14, 2016 <i class="fa fa-comment-o" id="cm"></i>2
+                                        <i class="fa fa-clock-o"></i> May 14, 2016 <i class="fa fa-comment-o"></i>2
                                     </div>
                                 </div>
 
@@ -51,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <a href="#">Week In Volgograd</a>
                                     </div>
                                     <div class="icon">
-                                        <i class="fa fa-clock-o"></i> April 5, 2016 <i class="fa fa-comment-o" id="cm"></i>3
+                                        <i class="fa fa-clock-o"></i> April 5, 2016 <i class="fa fa-comment-o"></i>3
                                     </div>
                                 </div>
 
@@ -69,7 +69,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <a href="#">Spring In Sweden</a>
                                     </div>
                                     <div class="icon">
-                                        <i class="fa fa-clock-o"></i> April 1, 2016 <i class="fa fa-comment-o" id="cm"></i>2
+                                        <i class="fa fa-clock-o"></i> April 1, 2016 <i class="fa fa-comment-o"></i>2
                                     </div>
                                 </div>
 

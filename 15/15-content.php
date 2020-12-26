@@ -16,7 +16,6 @@ $url_path = str_replace('\\', '/', $url_path);
               <form
                 method="get"
                 class="searchform"
-                action="http://demo.djmimi.net/themes/travelog/"
               >
                 <div class="travelog-form">
                   <input

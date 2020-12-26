@@ -57,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul class=" dropdown-menu">
                             <li class="menu-item"><a href="#">USA</a></li>
                             <li class="menu-item"><a href="#">Top Russia</a></li>
-                            <li class="menu-item"><a href="#">Spain Menu</a><7/li>
+                            <li class="menu-item"><a href="#">Spain Menu</a></li>
                             <li class="menu-item"><a href="#">Serbia</a></li>
                             <li class="menu-item"><a href="#">Sweeden</a></li>
                             <li class="menu-item"><a href="#">Morocco</a></li>

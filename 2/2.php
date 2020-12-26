@@ -35,14 +35,15 @@ $less->compileFile('less/2.less', 'css/2.css');
         <?php include '../2/2-content.php'; ?>
 
         <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initMap"></script>
+          var map;
+          function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: -34.397, lng: 150.644},
+              zoom: 8
+            });
+          }
+        </script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initMap"></script>
+    <script src="http://<?php echo $url_path ?>/js/js.js"></script>
     </body>
 </html>
