@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
                       <a
                         rel="nofollow"
                         class="comment-reply-login"
-                        href="../../../../wp-login51f5.html?redirect_to=http%3A%2F%2Fdemo.djmimi.net%2Fthemes%2Ftravelog%2F2015%2F07%2F14%2Fno-sleep-in-new-york%2F"
+                        href="#"
                         >Log in to Reply</a
                       >
                     </div>
@@ -77,7 +77,7 @@ $url_path = str_replace('\\', '/', $url_path);
                       <a
                         rel="nofollow"
                         class="comment-reply-login"
-                        href="../../../../wp-login51f5.html?redirect_to=http%3A%2F%2Fdemo.djmimi.net%2Fthemes%2Ftravelog%2F2015%2F07%2F14%2Fno-sleep-in-new-york%2F"
+                        href="#"
                         >Log in to Reply</a
                       >
                     </div>
@@ -106,7 +106,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         ><a
                           rel="nofollow"
                           id="cancel-comment-reply-link"
-                          href="index.html#respond"
+                          href="#"
                           style="display: none"
                           >or cancel reply</a
                         ></small
@@ -115,7 +115,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <p class="must-log-in">
                       You must be
                       <a
-                        href="../../../../wp-login51f5.html?redirect_to=http%3A%2F%2Fdemo.djmimi.net%2Fthemes%2Ftravelog%2F2015%2F07%2F14%2Fno-sleep-in-new-york%2F"
+                        href="#"
                         >logged in</a
                       >
                       to post a comment.

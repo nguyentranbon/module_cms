@@ -67,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
                   ></textarea>
                 </div>
                 <p class="form-submit">
-                  <a href="javascript:;" class="send-contact btn"
+                  <a href="#" class="send-contact btn"
                     >Send Message
                   </a>
                 </p>

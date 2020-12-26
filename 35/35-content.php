@@ -31,25 +31,25 @@ $url_path = str_replace('\\', '/', $url_path);
                   duis dolore te feugait nulla facilisi
                 </p>
                 <blockquote>
-                <i class="fas fa-quote-left"></i>
+                <i class="fa fa-quote-left"></i>
                   <p>
                     Hi there! I&#8217;m a bike messenger by day, aspiring actor
                     by night, and this is my website. I live in Los Angeles,
                     have a great dog named Jack, and I like piña coladas. (And
                     gettin&#8217; caught in the rain.)
                   </p>
-                  <i class="fas fa-quote-right"></i>
+                  <i class="fa fa-quote-right"></i>
                 </blockquote>
                 <p>&#8230;or something like this:</p>
                 <blockquote>
-                <i class="fas fa-quote-left"></i>
+                <i class="fa fa-quote-left"></i>
                   <p>
                     The XYZ Doohickey Company was founded in 1971, and has been
                     providing quality doohickeys to the public ever since.
                     Located in Gotham City, XYZ employs over 2,000 people and
                     does all kinds of awesome things for the Gotham community.
                   </p>
-                  <i class="fas fa-quote-right"></i>
+                  <i class="fa fa-quote-right"></i>
                 </blockquote>
                 <p>
                   Claritas est etiam processus dynamicus, qui sequitur

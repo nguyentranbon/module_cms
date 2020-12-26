@@ -16,6 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
               <form
                 method="get"
                 class="searchform"
+                action="http://demo.djmimi.net/themes/travelog/"
               >
                 <div class="travelog-form">
                   <input
@@ -26,7 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     placeholder="Search for..."
                   />
                   <input type="hidden" name="post_type" value="post" />
-                  <a class="btn btn-default submit_form"
+                  <a href="#" class="btn btn-default submit_form"
                     ><i class="fa fa-search"></i
                   ></a>
                 </div>

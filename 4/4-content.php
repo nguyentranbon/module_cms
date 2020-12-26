@@ -11,64 +11,41 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
 <div class="type-4">
-  <div class="blox-pd">
-    <a href="#" class="blog-item-media">
-      <img width="848" height="566" src="http://<?php echo $url_path ?>/images/4.jpg" class="attachment-post-thumbnail size-post-thumbnail travelog-lazy-load wp-post-image" sizes="(max-width: 848px) 100vw, 848px" />
-    </a>
-    <h3 class="blog-item-title">
-      <a href="#">
-        7 Days In Washington
-      </a>
-    </h3>
-    <div class="blog-item-meta">
-      Written on September 9, 2015 in
-      <a href="category/spain/index.html">USA</a>
-    </div>
-    <p>
-      Washington, D.C. is the capital of the United States of America and the seat of its three branches of government, as well as the federal district of the U.S. The city has an unparalleled collection of free, public museums and many of the nation’s most treasured monuments and memorials. The vistas on the National Mall...
-    </p>
-    <a href="#" class="read-more">
-      Continue reading <i class="fa fa-angle-right"></i>
-    </a>
+  <div class="post">
+  <a
+              href="#"
+              class="blog-item-media"
+            >
+              <img
+                width="848"
+                height="566"
+                src="http://<?php echo $url_path?>/images/malaga.jpg"
+                alt="malaga"
+              />
+            </a>
+            <h3 class="blog-item-title">
+              <a href="#">
+                5 Sunny Days In Malaga
+              </a>
+            </h3>
+            <div class="blog-item-meta">
+              Written on May 14, 2016 in
+              <a href="#">Spain</a>
+            </div>
+            <p>
+              City, seaport and holiday resort on the Mediterranean in South
+              Spain. Málaga is the heart of the Costa del Sol, a major tourist
+              region. Birthplace of Picasso, the vibrant cosmopolitan city of
+              Málaga is situated on the beautiful Andalucía coastline. Blessed
+              with sunshine and fantastic quality of life, Málaga provides
+              lively nightlife, museums an...
+            </p>
+            <a
+              href="#"
+              class="read-more"
+            >
+              Continue reading <i class="fa fa-angle-right"></i>
+            </a>
   </div>
-  <div class="blox-pd">
-    <a href="#" class="blog-item-media">
-      <img width="848" height="566" src="http://<?php echo $url_path ?>/images/sl4n.jpg" class="attachment-post-thumbnail size-post-thumbnail travelog-lazy-load wp-post-image" sizes="(max-width: 848px) 100vw, 848px" />
-    </a>
-    <h3 class="blog-item-title">
-      <a href="#">
-        Couple Of Days In Sunny Miami
-      </a>
-    </h3>
-    <div class="blog-item-meta">
-      Written on July 27, 2015 in
-      <a href="category/spain/index.html">USA</a>
-    </div>
-    <p>
-      Three quarters of a century after the art deco movement, Miami remains one of the world’s trendiest and flashiest hot spots. Luckily for visitors, South Beach is no longer the only place to stand and pose in Miami. North of downtown, the growing Wynwood and Design districts—along with nearby Midtown—are home to Miami’s hipster and.....
-    </p>
-    <a href="#" class="read-more">
-      Continue reading <i class="fa fa-angle-right"></i>
-    </a>
-  </div>
-  <a href="#" class="blog-item-media">
-    <img width="848" height="566" src="http://<?php echo $url_path ?>/images/4.3.jpg" class="attachment-post-thumbnail size-post-thumbnail travelog-lazy-load wp-post-image" sizes="(max-width: 848px) 100vw, 848px" />
-  </a>
-  <h3 class="blog-item-title">
-    <a href="#">
-      No Sleep In New York
-    </a>
-  </h3>
-  <div class="blog-item-meta">
-    Written on July 14, 2015 in USA
-    <a href="category/spain/index.html">USA</a>
-  </div>
-  <p>
-    From Wall Street’s skyscrapers to the neon of Times Square to Central Park’s leafy paths, New York City pulses with an irrepressible energy. History meets hipness in this global center of entertainment, fashion, media, and finance. World-class museums like MoMA and unforgettable icons like the Statue of Liberty beckon, but discovering t...
-  </p>
-  <a href="#" class="read-more">
-    Continue reading <i class="fa fa-angle-right"></i>
-  </a>
 </div>

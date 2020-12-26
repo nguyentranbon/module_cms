@@ -29,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
                   </div>
 
                   <div class="widget-text">
-                    <a href="author/ally/index.html"> Ally Star </a>
+                    <a href="#"> Ally Star </a>
                     <p class="small">
                       <i class="fa fa-pencil"></i> Wrote 6 posts
                     </p>
@@ -48,7 +48,7 @@ $url_path = str_replace('\\', '/', $url_path);
                   </div>
 
                   <div class="widget-text">
-                    <a href="author/admin/index.html"> Sandy Smith </a>
+                    <a href="#"> Sandy Smith </a>
                     <p class="small">
                       <i class="fa fa-pencil"></i> Wrote 4 posts
                     </p>
@@ -67,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
                   </div>
 
                   <div class="widget-text">
-                    <a href="author/mark/index.html"> Mark Doe </a>
+                    <a href="#"> Mark Doe </a>
                     <p class="small">
                       <i class="fa fa-pencil"></i> Wrote 4 posts
                     </p>

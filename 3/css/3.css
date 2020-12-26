@@ -1,12 +1,8 @@
-@import "../../var/var.less";
 .type-3 .home-categories {
   margin-bottom: 40px;
 }
 .type-3 .home-categories a {
   background: transparent;
-}
-.type-3 .home-categories a:visited {
-  color: #272727;
 }
 .type-3 .home-categories .category-box {
   padding: 75px 0px;
@@ -20,7 +16,7 @@
   text-align: center;
 }
 .type-3 .home-categories .category-box::before {
-  content: ' ';
+  content: " ";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -32,7 +28,7 @@
   opacity: 0;
 }
 .type-3 .home-categories .category-box::after {
-  content: ' ';
+  content: " ";
   position: absolute;
   top: 0px;
   left: 0px;
@@ -46,8 +42,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   color: #fff;
   font-weight: 700;

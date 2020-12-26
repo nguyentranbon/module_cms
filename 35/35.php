@@ -19,11 +19,11 @@ $less->compileFile('less/35.less', 'css/35.css');
 <html lang="en">
     <head>
         <title>35</title>
-        <meta charset="UTF-35">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/35.css" rel="stylesheet" type="text/css" />
-        <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
         
         <?php
         if (!class_exists('lessc')) {
