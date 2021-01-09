@@ -173,6 +173,7 @@
   margin-right: 4px;
   margin-bottom: 4px;
   float: left;
+  font-size: 8pt !important;
 }
 .module-27 .tagcloud a:hover {
   border-color: #454545;
@@ -181,4 +182,5 @@
 }
 .module-27 .tagcloud {
   padding-top: 35px;
+
 }

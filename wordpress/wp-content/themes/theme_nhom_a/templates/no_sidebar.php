@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Listing – Standard
+ * Template Name: No Sidebar
  *
  * @package theme_nhom_a
  */
@@ -18,7 +18,7 @@ $wp_query  = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', '
 <?php if ( $wp_query ->have_posts() ) : ?>
  
 <div class="container">
-    <div class="row">
+    <div class="row center">
         <div class="col-sm-9">
             <!-- the loop --> 
     <?php while ( $wp_query ->have_posts() ) : $wp_query ->the_post(); ?>
@@ -76,13 +76,6 @@ $wp_query  = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', '
 				?>
 			</div>
         </div>
-        <div class="col-sm-3">
-				<?php
-					get_sidebar();
-					dynamic_sidebar( 'top_travelers' );
-					dynamic_sidebar( 'subscribe' );
-				?>
-			</div>
     </div>
 </div>
  

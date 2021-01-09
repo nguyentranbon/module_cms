@@ -33,7 +33,9 @@
   margin-bottom: 4px;
   float: left;
   box-shadow: none;
+  font-size: 8pt !important;
 }
+
 .module-34 .tagcloud a:hover {
   transition: ease all 0.5s;
   background: #f8c12c;

@@ -13,7 +13,7 @@ dynamic_sidebar( 'home_categories' );
 <?php 
 // the query
 $paged = ( get_query_var('paged') ) ? get_query_var( 'paged' ) : 1;
-$wp_query  = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=> 2, 'paged' => $paged)); ?>
+$wp_query  = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=> 4, 'paged' => $paged)); ?>
  
 <?php if ( $wp_query ->have_posts() ) : ?>
  
