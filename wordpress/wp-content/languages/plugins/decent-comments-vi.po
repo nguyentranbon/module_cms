@@ -1,0 +1,295 @@
+# Translation of Plugins - Decent Comments - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Decent Comments - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-10 10:52:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Decent Comments - Stable (latest release)\n"
+
+#: class-decent-comments-renderer.php:104
+msgid "Descending"
+msgstr "Giảm dần"
+
+#: class-decent-comments-renderer.php:103
+msgid "Ascending"
+msgstr "Tăng dần"
+
+#: class-decent-comments-renderer.php:100
+msgid "Post"
+msgstr "Bài viết"
+
+#: class-decent-comments-renderer.php:99
+msgid "Karma"
+msgstr "Hành động"
+
+#: class-decent-comments-renderer.php:98
+msgid "Date"
+msgstr "Ngày"
+
+#: class-decent-comments-renderer.php:97
+msgid "Content"
+msgstr "Nội dung"
+
+#: class-decent-comments-renderer.php:96
+msgid "Author URL"
+msgstr "URL của tác giả"
+
+#: decent-comments.php:209
+msgid "Save"
+msgstr "Lưu"
+
+#: decent-comments.php:202
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: decent-comments.php:173
+msgid "Access denied."
+msgstr "Truy cập bị từ chối."
+
+#: class-decent-comments-widget.php:480
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: class-decent-comments-widget.php:480
+msgid "Include trackbacks."
+msgstr "Bao gồm trackbacks."
+
+#: class-decent-comments-widget.php:473
+msgid "Pingbacks"
+msgstr "Pingbacks"
+
+#: class-decent-comments-widget.php:451
+msgid "Indicate <strong>category</strong> if you would like to show comments on posts in certain categories. Give the desired categories' slugs in <strong>Terms</strong>. For tags use <strong>post_tag</strong> and give the tags' slugs in <strong>Terms</strong>."
+msgstr "Nhập <strong>danh mục</strong>, nếu bạn muốn hiển thị những bình luận trong những bài viết theo một danh mục nào đó bạn muốn. Nhập vào một slug của danh mục trong <strong>Điều kiện</strong>. Đối với các thẻ bài viết, sử dụng <strong>post_tag</strong> và nhập slug của thẻ trong phần <strong>Terms</strong>."
+
+#: class-decent-comments-widget.php:463
+msgid "Terms"
+msgstr "Điều kiện"
+
+#: class-decent-comments-widget.php:448
+msgid "Taxonomy"
+msgstr "Phân loại"
+
+#: class-decent-comments-widget.php:466
+msgid "Terms or {current}. A <strong>Taxonomy</strong> must be given."
+msgstr "Điều kiện hoặc {current}. Cách thức <strong>Phân loại</strong> phải được chỉ định."
+
+#: class-decent-comments-widget.php:448
+msgid "A taxonomy, e.g. category or post_tag"
+msgstr "Phân loại theo, ví dụ: danh mục hoặc thẻ bài viết"
+
+#: class-decent-comments-widget.php:442
+msgid "Show an excerpt of the comment or the full comment."
+msgstr "Hiển thị một phần của bình luận hoặc đầy đủ bình luận."
+
+#: class-decent-comments-widget.php:435
+msgid "Show a link to the post that the comment applies to."
+msgstr "Hiển thị liên kết đến bài đăng chứa bình luận."
+
+#: class-decent-comments-widget.php:427
+msgid "Avatar size"
+msgstr "Kích cỡ ảnh đại diện"
+
+#: class-decent-comments-widget.php:427
+msgid "The size of the avatar in pixels."
+msgstr "Kích cỡ ảnh đại diện theo đơn vị pixel."
+
+#: class-decent-comments-widget.php:421
+msgid "Show avatar"
+msgstr "Hiển thị ảnh đại diện"
+
+#: class-decent-comments-widget.php:414
+msgid "Link authors"
+msgstr "Liên kết tới tác giả"
+
+#: class-decent-comments-widget.php:407
+msgid "Show the date and time when the comment was posted."
+msgstr "Hiển thị ngày giờ bình luận được đăng."
+
+#: class-decent-comments-widget.php:392
+msgid "Ellipsis"
+msgstr "Dấu 3 chấm"
+
+#: class-decent-comments-widget.php:378
+msgid "Number of words in excerpts"
+msgstr "Số từ của đoạn trích."
+
+#: class-decent-comments-widget.php:378
+msgid "The maximum number of words shown in excerpts."
+msgstr "Số lượng từ tối đa hiển thị trong đoạn trích."
+
+#: class-decent-comments-widget.php:372
+msgid "Show comment excerpt"
+msgstr "Hiển thị một phần bình luận"
+
+#: class-decent-comments-widget.php:372
+msgid "If checked, shows an excerpt of the comment. Otherwise the full text of the comment is displayed."
+msgstr "Nếu tích, sẽ chỉ hiển thị đoạn trích (một phần) của bình luận. Ngược lại thì sẽ hiển thì đầy đủ nội dung bình luận."
+
+#: class-decent-comments-widget.php:365
+msgid "Exclude comments from post authors"
+msgstr "Ngoại trừ bình luận của chủ bài viết."
+
+#: class-decent-comments-widget.php:365
+msgid "If checked, excludes comments from post authors on their own posts."
+msgstr "Nếu tích, sẽ ngoại trừ những bình luận của tác giả bài viết trong những bài viết của họ."
+
+#: class-decent-comments-widget.php:355
+msgid "Available post types: %s"
+msgstr "Dành cho các loại bài viết: %s"
+
+#: class-decent-comments-widget.php:351
+msgid "Post Type"
+msgstr "Kiểu Bài viết"
+
+#: class-decent-comments-widget.php:332
+msgid "Selected post: <em>%s</em>"
+msgstr "Những bài viết đã chọn: <em>%s</em>"
+
+#: class-decent-comments-widget.php:326
+msgid "Post ID"
+msgstr "ID bài viết"
+
+#: class-decent-comments-widget.php:295
+msgid "Order by ..."
+msgstr "Sắp xếp theo ..."
+
+#: class-decent-comments-widget.php:295
+msgid "Sorting criteria."
+msgstr "Tiêu chí sắp xếp."
+
+#: class-decent-comments-widget.php:288
+msgid "Number of comments"
+msgstr "Số bình luận"
+
+#: class-decent-comments-widget.php:288
+msgid "The number of comments to show."
+msgstr "Số bình luận hiển thị."
+
+#: class-decent-comments-widget.php:281
+msgid "Title"
+msgstr "Tiêu đề"
+
+#. Author URI of the plugin
+msgid "https://www.itthinx.com"
+msgstr "https://www.itthinx.com"
+
+#. Author of the plugin
+msgid "itthinx"
+msgstr "itthinx"
+
+#. Description of the plugin
+msgid "Provides configurable means to display comments that include author's avatars, author link, link to post and most importantly an excerpt of each comment. There are several options ..."
+msgstr "Cấu hình cài đặt để hiển thị các bình luận bao gồm hình đại diện của tác giả, liên kết tác giả, liên kết đến bài viết và quan trọng nhất là một đoạn trích của mỗi bình luận. Có một số tuỳ chọn cho bạn ..."
+
+#. Plugin URI of the plugin
+msgid "https://www.itthinx.com/plugins/decent-comments"
+msgstr "https://www.itthinx.com/plugins/decent-comments"
+
+#. Plugin Name of the plugin
+#: decent-comments.php:163
+msgid "Decent Comments"
+msgstr "Decent Comments"
+
+#: class-decent-comments-widget.php:407
+msgid "Show date"
+msgstr "Hiển thị ngày đăng"
+
+#: class-decent-comments-renderer.php:419
+msgctxt "comment-link"
+msgid " on %s"
+msgstr "trong %s "
+
+#: class-decent-comments-renderer.php:409
+msgctxt "comment-date"
+msgid " %1$s at %2$s"
+msgstr "%1$s vào lúc %2$s"
+
+#: class-decent-comments-renderer.php:95
+msgid "Author Email"
+msgstr "Email tác giả"
+
+#: decent-comments.php:226
+msgid "Options"
+msgstr "Cài đặt"
+
+#: decent-comments.php:205
+msgid "Delete settings when the plugin is deactivated"
+msgstr "Xoá hết mọi cài đặt khi plugin không kích hoạt."
+
+#: decent-comments.php:163 decent-comments.php:179
+msgid "Decent Comments Options"
+msgstr "Tuỳ chọn plugin Decent Comments"
+
+#: class-decent-comments-widget.php:473
+msgid "Include pingbacks."
+msgstr "Bao gồm pingbacks."
+
+#: class-decent-comments-widget.php:442
+msgid "Show the comment"
+msgstr "Hiển thị bình luận"
+
+#: class-decent-comments-widget.php:435
+msgid "Show link to post"
+msgstr "Hiển thị đường dẫn bài viết"
+
+#: class-decent-comments-widget.php:421
+msgid "Show the avatar of the author."
+msgstr "Hiển thị ảnh đại diện của người bình luận."
+
+#: class-decent-comments-widget.php:414
+msgid "Whether to link comment authors to their website."
+msgstr "Liên kết đến trang web của người bình luận."
+
+#: class-decent-comments-widget.php:400
+msgid "Show author"
+msgstr "Hiển thị người bình luận"
+
+#: class-decent-comments-widget.php:400
+msgid "Whether to show the author of each comment."
+msgstr "Hiển thị người bình luận của mỗi bình luận."
+
+#: class-decent-comments-widget.php:392
+msgid "The ellipsis is shown after the excerpt when there is more content."
+msgstr "Dấu 3 chấm sẽ hiện ra sau đoạn trích của bình luận khi bình luận có nhiều ký tự vượt quá số lượng ký tự hiển thị đoạn trích."
+
+#: class-decent-comments-widget.php:385
+msgid "Number of characters in excerpts"
+msgstr "Số ký tự của đoạn trích bình luận"
+
+#: class-decent-comments-widget.php:463
+msgid "If a taxonomy is given , indicate terms in that taxonomy separated by comma to show comments for all posts related to these terms. To show comments on posts related to the same terms as the current post, indicate: {current}. If a taxonomy is given and terms is empty, no comments will be shown."
+msgstr "Nếu phân loại được chỉ định, hãy nhập các điều kiện phân loại, được phân tách bằng dấu phẩy, để hiển thị các bình luận cuatr tất cả các bài viết phù hợp các điều kiện phân loại đó. Để hiển thị bình luận trong các bài viết có cùng điều kiện phân loại như bài viết hiện tại, hãy nhập: {current}. Nếu phân loại được chỉ định và các điều kiện phân loại trống, sẽ không có bình luận nào được hiển thị."
+
+#: class-decent-comments-widget.php:385
+msgid "The maximum number of characters shown in excerpts."
+msgstr "Số ký tự tối đa được hiển thị trong đoạn trích bình luận."
+
+#: class-decent-comments-widget.php:348
+msgid "You can indicate one ore more post types separated by comma."
+msgstr "Bạn có thể nhập một hoặc nhiều loại bài viết bằng cách nhập chúng cách nhau bởi dấu phẩy."
+
+#: class-decent-comments-widget.php:346
+msgid "Leave empty to show comments for all post types. To show comments for a specific post type only, indicate the post type."
+msgstr "Để trống để hiển thị bình luận cho mọi kiểu bài viết. Để hiển thị những bình luận của một kiểu bài viết cụ thể nào đó, hãy nhập kiểu bài viết."
+
+#: class-decent-comments-widget.php:329
+msgid "Title, empty, post ID or [current]"
+msgstr "Tiêu đề, để trống, ID bài viết hoặc [current]"
+
+#: class-decent-comments-widget.php:326
+msgid "Leave empty to show comments for all posts. To show comments for a specific post only, indicate either part of the title or the post ID. To show posts for the current post, indicate: [current]"
+msgstr "Để trống để hiển thị bình luận cho tất cả bài viết. Để hiển thị bình luận cho một bài viết cụ thể, hãy nhập một phần tiêu đề hoặc ID của bài viết đó. Để hiển thị những bài viết cho bài viết hiện tại, hãy nhập: [current]"
+
+#: class-decent-comments-widget.php:307
+msgid "Sort order"
+msgstr "Sắp xếp thứ tự"
+
+#: class-decent-comments-widget.php:307
+msgid "Sort order."
+msgstr "Sắp xếp thứ tự."

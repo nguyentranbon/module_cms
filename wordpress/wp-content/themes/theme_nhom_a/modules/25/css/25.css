@@ -1,0 +1,124 @@
+.type-25 a {
+  text-decoration: none;
+}
+.type-25 a,
+.type-25 a:visited {
+  color: #272727;
+}
+.type-25 .blog-header h1 {
+  margin: 0px;
+}
+.type-25 .post-title {
+  margin-top: 10px;
+  font-size: 2.0581em;
+}
+.type-25 h1 {
+  font-size: 2.6179em;
+  margin: 10px 0px;
+  line-height: 1.4;
+  color: #272727;
+  font-weight: 700;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+.type-25 .white-section {
+  padding: 50px 0px;
+}
+.type-25 .wpcf7-form {
+  margin: 0px;
+}
+.type-25 .wpcf7-form-control-wrap textarea input,
+.type-25 .wpcf7-form-control-wrap textarea input:focus,
+.type-25 .wpcf7-form-control-wrap textarea input:active,
+.type-25 .wpcf7-form-control-wrap textarea input:focus:active {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-clip: padding-box;
+}
+.type-25 .wpcf7-form-control-wrap {
+  margin-bottom: 15px;
+  position: relative;
+  padding-right: 42.5px;
+}
+.type-25 .wpcf7-form-control::-webkit-input-placeholder {
+  font-size: 13px;
+  color: #555;
+  font-weight: normal;
+}
+.type-25 input,
+.type-25 textarea {
+  border-radius: 2px;
+  background: none;
+  border: 2px solid #eee;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  font-size: 13px;
+  padding: 15px;
+  line-height: 30px;
+  color: #505050;
+  font-weight: normal;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.type-25 input,
+.type-25 button,
+.type-25 select,
+.type-25 textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.type-25 wpcf7-form-control {
+  line-height: normal;
+  width: 100%;
+}
+.type-25 button,
+.type-25 input,
+.type-25 select,
+.type-25 textarea {
+  color: inherit;
+  margin: 0;
+}
+.type-25 input,
+.type-25 textarea {
+  background-clip: padding-box;
+}
+.type-25 textarea{
+  height: auto;
+}
+.type-25 textarea {
+  overflow: auto;
+}
+.type-25 p {
+  margin-bottom: 15px;
+  margin: 0 0 10px;
+}
+.type-25 .wpcf7-submit {
+  background: transparent;
+  border: 2px solid #202020;
+  border-radius: 2px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 85%;
+}
+.type-25 .wpcf7-submit,
+.type-25 a.wpcf7-submit {
+  display: inline-block;
+  white-space: normal;
+  box-shadow: none;
+}
+.type-25 .wpcf7-submit {
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+}
+.type-25 .wpcf7-submit:hover {
+  background: #f8c12c;
+  color: #202020;
+  border-color: #f8c12c;
+  box-shadow: none;
+  text-decoration: none;
+}

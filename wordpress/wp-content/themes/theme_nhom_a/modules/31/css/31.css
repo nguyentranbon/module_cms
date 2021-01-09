@@ -1,0 +1,50 @@
+.type-31 .post-navigation h2 {
+  display: none;
+}
+.type-31 .nav-subtitle {
+  display: block;
+}
+.type-31 .nav-previous {
+  width: 200px;
+float: left;
+text-align: center;
+}
+.type-31 .nav-next {
+  width: 200px;
+float: right;
+text-align: center;
+}
+.type-31 .nav-next,
+.type-31 .nav-previous {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+}
+.type-31 .nav-previous .overlay {
+  background: rgba(255,255,255,0.85);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.type-31 .caption-holder {
+  z-index: 2;
+  position: relative;
+  padding: 0px 20px;
+}
+.type-31 .animation {
+  transition: all 0.2s ease;
+  line-height: 1.4;
+  color: #272727;
+  font-weight: bold;
+}
+.type-31 .nav-next:hover .overlay,
+.type-31 .nav-previous:hover .overlay {
+  background: rgba(0,0,0,0.4);
+}
+.type-31 .nav-next:hover .animation,
+.type-31 .nav-previous:hover .animation {
+  color: white;
+}

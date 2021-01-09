@@ -1,0 +1,53 @@
+.type-35 .page .blog-header h1 {
+  margin: 0px;
+}
+.type-35 .page p {
+  margin-bottom: 18px;
+}
+.type-35 .post-title {
+  margin-top: 10px;
+  font-size: 2.0581em;
+}
+.type-35 h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #272727;
+}
+.type-35 h1 {
+  font-size: 2.6179em;
+}
+.type-35 h1 {
+  line-height: 1.4;
+  font-weight: 700;
+}
+.type-35 .white-section {
+  padding: 50px 0px;
+}
+.type-35 blockquote {
+  font-size: 20px;
+  font-style: italic;
+  border: none;
+  text-align: center;
+  padding: 50px 0px;
+  position: relative;
+  opacity: 0.8;
+}
+.type-35 blockquote p:last-child {
+  margin-bottom: 0;
+}
+.type-35 blockquote .fa-quote-left {
+  top: 0px;
+}
+.type-35 blockquote .fa-quote-right {
+  bottom: 0px;
+}
+.type-35 blockquote .fas {
+  position: absolute;
+  left: 50%;
+  opacity: 0.2;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  font-weight: 900;
+}
+.type-35 .post-content p {
+  margin-bottom: 18px;
+}

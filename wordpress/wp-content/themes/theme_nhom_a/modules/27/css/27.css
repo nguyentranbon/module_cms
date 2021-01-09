@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.module-27 {
+  font-family: "Work Sans", sans-serif;
+}
+.module-27 ul {
+  margin-top: 0;
+}
+.module-27 .footer-blog-icon {
+  background: #343434;
+  color: #fff;
+  padding: 50px 0px;
+}
+.module-27 .footer-blog-icon .title-wrap,
+.module-27 .widget ul::before {
+  display: block;
+  text-align: left;
+  border-bottom: 2px solid #454545;
+  margin-bottom: 35px;
+}
+.module-27 .tagcloud {
+  display: block;
+  text-align: left;
+  border-top: 2px solid #454545;
+  margin-bottom: 35px;
+}
+.module-27 .widget-title {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: -2px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f8c12c;
+  font-weight: 700;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+.module-27 .list-widget {
+  list-style: none;
+  padding: 0;
+}
+.module-27 .widget-text a {
+  color: #eee;
+}
+.module-27 .widget-text a:hover {
+  transition: ease all 0.5s;
+  color: #fff;
+  text-decoration: none;
+}
+.module-27 .rpwwt-post-title {
+  color: #eee;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.module-27 .widget {
+  line-height: 25px;
+  margin-bottom: 0;
+}
+.module-27 .widget .rpwwt-post-date,
+.module-27 .widget .rpwwt-post-comments-number {
+  color: #aaa;
+  font-size: 13px;
+}
+.module-27 .widget .rpwwt-post-date .fa,
+.module-27 .widget .rpwwt-post-comments-number .fa {
+  margin-right: 5px;
+}
+.module-27 .widget .rpwwt-post-comments-number {
+  margin-top: -24.5px;
+  margin-left: 220px;
+}
+.module-27 .widget .rpwwt-post-date::before {
+  content: "\f017";
+  font-family: "FontAwesome";
+  margin-right: 5px;
+}
+.module-27 .widget .rpwwt-post-comments-number::before {
+  content: "\f0e5";
+  font-family: "FontAwesome";
+  margin-right: 5px;
+}
+.module-27 .rpwwt-post-title:hover {
+  transition: all ease 0.5s;
+  color: #fff;
+}
+.module-27 .row-widget {
+  margin-bottom: 35px;
+}
+.module-27 #cm {
+  margin-left: 10px;
+}
+.module-27 .footer-blog-icon .widget-social .icon {
+  color: #fff;
+  padding: 10px 13px;
+  border: solid 1px #454545;
+  margin-right: 1px;
+}
+.module-27 .footer-blog-icon .widget-social .icon:hover {
+  background: #454545;
+  transition: all ease 0.5s;
+}
+.module-27 .tagcloud .tag-cloud-link {
+  color: #eee;
+  text-decoration: none;
+  border: 1px solid #454545;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 7px 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.module-27 .tagcloud::before {
+  margin-top: 35px;
+}
+.module-27 .tagcloud ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.module-27 .tagcloud ul li a:hover {
+  transition: ease all 0.5s;
+  background: #454545;
+}
+.module-27 .widget-social-27 .icon {
+  color: #fff;
+  padding: 10px 12px;
+  border: solid 1px #454545;
+  margin-right: 0px;
+}
+.module-27 .widget-social-27 .icon:hover {
+  background: #454545;
+  transition: all ease 0.5s;
+}
+.module-27 .travelog-form {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+.module-27 .travelog-form .search-field {
+  color: #ccc;
+  background: #343434;
+  border: 1px solid #454545;
+  border-radius: 4px;
+}
+.module-27 .travelog-form .search-submit {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  color: #fff;
+  background: #343434;
+  border: 1px solid #454545;
+}
+.module-27 .travelog-form .btn-default {
+}
+.module-27 .widget .travelog-form .btn {
+  line-height: 25px;
+  width: 40px;
+}
+.module-27 .widget-social-27 {
+  padding: 10px 0px;
+}
+.module-27 .box-tag {
+  margin-bottom: 60px;
+}
+.module-27 .box-post {
+  margin-bottom: 65px;
+}
+.module-27 .tagcloud a {
+  padding: 5px 10px;
+  line-height: 19px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  float: left;
+}
+.module-27 .tagcloud a:hover {
+  border-color: #454545;
+  background: #454545;
+  color: #fff !important;
+}
+.module-27 .tagcloud {
+  padding-top: 35px;
+}

@@ -1,0 +1,28 @@
+.module-21 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 0;
+}
+.module-21 p {
+  margin: 0px;
+}
+.module-21 .post-content {
+  margin: 0px 30px;
+}
+.module-21 h2 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+.module-21 blockquote {
+  font-size: 20px;
+  font-style: italic;
+  border: none;
+  text-align: center;
+  position: relative;
+  opacity: 0.8;
+}
+.module-21 .fa-quote-left {
+  opacity: 0.2;
+}
+.module-21 .fa-quote-right {
+  opacity: 0.2;
+}
