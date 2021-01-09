@@ -239,3 +239,10 @@ li:first-child {
 		  align-items: center;
 		  justify-content: center;
 }
+.left-sidebar{
+  font-weight: 700;     font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+}
+.left-sidebar-21{
+  padding-top: 82px;
+}
